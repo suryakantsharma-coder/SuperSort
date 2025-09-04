@@ -45,7 +45,10 @@ function Features() {
           <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4  2xl:grid-cols-4 gap-[10px]">
             {featuers.map(item => {
               return (
-                <div className="xl:max-w-[295px] md:w-[100%] max-h-[217px] border-1 border-[rgba(255, 255, 255, 0.12)] rounded-[20px] p-[30px]">
+                <div
+                  key={item.id}
+                  className="xl:max-w-[295px] md:w-[100%] max-h-[217px] border-1 border-[rgba(255, 255, 255, 0.12)] rounded-[20px] p-[30px]"
+                >
                   <h1
                     className={`${item.titleColor} font-700 text-[30px]`}
                     style={{

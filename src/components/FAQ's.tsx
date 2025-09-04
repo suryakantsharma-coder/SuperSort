@@ -14,7 +14,7 @@ function FAQs() {
 
         <div className="mt-[80px]">
           {Faqs.map(faq => (
-            <div className="flex justify-between items-center gap-[30px] mb-[23px]">
+            <div key={faq.id} className="flex justify-between items-center gap-[30px] mb-[23px]">
               <div className="w-[100%] bg-[#FFFFFF] rounded-full py-[25px] px-[32px] border-1 border-[rgba(255, 255, 255, 0.12)]">
                 <p className="text-[#141414] font-500 text-[20px]">
                   {faq.id}. {faq.questions}
