@@ -20,10 +20,39 @@
 }
 
 @font-face {
-  font-family: 'SatoshiFont';
+  font-family: 'Satoshi';
   src: url('/typography/Satoshi-Variable.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'satoshi-regular';
+  src: url('/typography/Satoshi-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'satoshi-semi-bold';
+  src: url('/typography/Satoshi-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'satoshi-bold';
+  src: url('/typography/Satoshi-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.satoshi-regular {
+  font-family: 'satoshi-regular';
+}
+.satoshi-semi-bold {
+  font-family: 'satoshi-semi-bold';
+}
+.satoshi-bold {
+  font-family: 'satoshi-bold';
 }
 
 body {

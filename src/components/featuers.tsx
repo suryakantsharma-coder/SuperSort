@@ -7,7 +7,7 @@ function Features() {
         <div>
           <div className=" flex-col justify-center items-center ">
             <h1
-              className="hidden lg:block text-[#141414] font-700 text-[55px] text-center"
+              className="hidden lg:block text-[#141414] satoshi-bold text-[55px] text-center leading-[60px]"
               style={{
                 fontStyle: 'normal',
                 lineHeight: '60px',
@@ -17,7 +17,7 @@ function Features() {
               Powerful Features to <br /> Simplify Your Workflow
             </h1>
 
-            <p className="hidden lg:block text-[#58595E] font-medium text-[20px] text-center mt-[10px]">
+            <p className="hidden lg:block text-[#58595E] satoshi-medium text-[20px] text-center mt-[10px]">
               Supersort comes packed with tools that help you stay organized, save time, and <br />
               make the most out of your feeds.
             </p>
@@ -25,17 +25,15 @@ function Features() {
             {/* Mobile */}
             <>
               <h1
-                className=" lg:hidden text-[#141414] font-700 text-[32px] text-center lending-[60px]"
+                className=" lg:hidden text-[#141414] font-700 text-[32px] satoshi-bold text-center leading-[40px] "
                 style={{
-                  fontStyle: 'normal',
-                  lineHeight: '60px',
                   letterSpacing: '-0.02em',
                 }}
               >
                 Powerful Features to Simplify Your Workflow
               </h1>
 
-              <p className=" lg:hidden text-[#58595E] font-medium text-[20px] text-center mt-[10px]">
+              <p className=" lg:hidden text-[#58595E] satoshi-regular text-[20px] text-center mt-[10px] leading-[25px]">
                 Supersort comes packed with tools that help you stay organized, save time, and make
                 the most out of your feeds.
               </p>
@@ -50,7 +48,7 @@ function Features() {
                   className="xl:max-w-[295px] md:w-[100%] max-h-[217px] border-1 border-[rgba(255, 255, 255, 0.12)] rounded-[20px] p-[30px]"
                 >
                   <h1
-                    className={`${item.titleColor} font-700 text-[30px]`}
+                    className={`${item.titleColor} satoshi-bold text-[30px]`}
                     style={{
                       fontStyle: 'normal',
                       lineHeight: '35px',
@@ -58,7 +56,7 @@ function Features() {
                   >
                     {item.title}
                   </h1>
-                  <p className="text-[#58595E] font-400 text-[16px] mt-[20px]">
+                  <p className="text-[#58595E] statoshi-regular text-[16px] mt-[20px]">
                     {item.discription}
                   </p>
                 </div>

@@ -53,7 +53,8 @@ export const Faqs = [
   {
     id: 1,
     questions: 'What is Supersort and how does it work?',
-    answeres: '',
+    answeres:
+      'Supersort is a Chrome extension that helps you organize your content feeds in one place. Instead of scrolling through clutter, Supersort neatly sorts posts, updates, and inspirations into a distraction-free dashboard. With just a click, you can manage, filter, and even download the content that matters most to you.',
   },
   {
     id: 2,

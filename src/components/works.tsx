@@ -1,9 +1,9 @@
 function Works() {
   return (
-    <div className="bg-[#FFFFFF] px-[92px]  py-[150px] md:px-[5%] xl:px-[10%] 2xl:px-[27%]">
+    <div className="bg-[#FFFFFF] p-[5%] lg:px-[92px]  lg:py-[150px] md:px-[5%] xl:px-[10%] 2xl:px-[27%]">
       <div>
         <h1
-          className="text-[#141414] font-700 text-[55px] text-center"
+          className=" hidden lg:block text-[#141414]  satoshi-bold text-[55px] text-center"
           style={{
             fontStyle: 'normal',
             lineHeight: '60px',
@@ -15,7 +15,7 @@ function Works() {
         </h1>
 
         <p
-          className="text-[#58595E] font-medium text-[20px] text-center mt-[5px]"
+          className=" hidden lg:block text-[#58595E] satoshi-medium text-[20px] text-center mt-[5px]"
           style={{
             lineHeight: '30px',
           }}
@@ -23,8 +23,22 @@ function Works() {
           Works on Profile Pages on Instagram & TikTok
         </p>
 
+        {/* Mobile */}
+        <h1
+          className="lg:hidden text-[#141414]  satoshi-bold text-[32px] text-center leading-[40px] "
+          style={{
+            letterSpacing: '-0.02em',
+          }}
+        >
+          Works On Instagram & TikTok
+        </h1>
+
+        <p className=" lg:hidden text-[#58595E] satoshi-regular text-[20px] text-center mt-[5px] ">
+          Works on Profile Pages on Instagram & TikTok
+        </p>
+
         <div className="mt-[45px]">
-          <img className="w-[100%] object-cover" src="/assets/works/works.png" alt="" />
+          <img className="w-[100%]  object-cover" src="/assets/works/works.png" alt="" />
         </div>
       </div>
     </div>
